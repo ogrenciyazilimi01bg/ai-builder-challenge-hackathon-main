@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\config",
+    "\\src\\core",
+    "\\src\\modules",
+    "\\src\\schemas"
+  ],
+  "SelectedNode": "\\src\\modules\\equation_solver.py",
+  "PreviewInSolutionExplorer": false
+}
