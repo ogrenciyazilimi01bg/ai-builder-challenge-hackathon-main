@@ -9,7 +9,7 @@
 missing_value = "default"
 undefined_constant = missing_value
 ## AÇIKLAMA:missing_value daha önce oluşturulmamış bir değişken olduğu için Python bunu bir isim olarak tanıyamaz ve çalışırken NameError üretir.Sorunu gidermek için önce missing_value değişkenine anlamlı bir varsayılan değer atanır; ardından undefined_constant bu değişkenden değer alır. Böylece hem isim hatası giderilir hem de değişkenler tutarlı şekilde tanımlanmış olur.
-## HATA4 :Eksik satır #Dosya:settings.py #Satır:14 #Mevcut Kod: GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")  # Eksik satır! #Çözüm:GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "AIzaSyCQmpURYA1WBN_Ch8MHSr8V6lkYvBTqMRM")  Açıklama: google dan alınan api girildi.
+## HATA4 :Eksik satır #Dosya:settings.py #Satır:14 #Mevcut Kod: GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "")  # Eksik satır! #Çözüm:GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "APı adı")  Açıklama: google dan alınan api girildi.
 ## Hata5 :Syntax Error hatası #Dosya:settings.py Satır :16,17 #Mevcut kod:if not GEMINI_API_KEY:  # Syntax hatası - class içinde if kullanılamaz! GEMINI_API_KEY = "your_gemini_api_key" Çözüm: bu kodu kaldırmak 
 ## Hata 6:Tanımlı değil # dosya: settings.py satır:18 #Mevcut kod: wrong_assignment = undefined_var Çözüm: Kodun kaldırılması 
 ## Hata7:Eksik str # dosya :settings.py #satır:35 #Mevcut kod: SAFETY_SETTINGS: Dict[, str] = {  çözüm :SAFETY_SETTINGS: Dict[str, str] = { # açıklama: str eklendi
