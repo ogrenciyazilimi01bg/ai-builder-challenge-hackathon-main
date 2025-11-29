@@ -11,7 +11,7 @@ class Settings:
     """Uygulama ayarlari"""
     
     # Gemini API Configuration
-    GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "AIzaSyCQmpURYA1WBN_Ch8MHSr8V6lkYvBTqMRM")  # Eksik satır!
+    GEMINI_API_KEY: str = os.getenv("GEMINI_API_KEY", "Api adress")  # Eksik satır!
     
    
 
